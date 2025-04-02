@@ -1,0 +1,124 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Couleur de fond douce */
+}
+#logo {
+    width: 150px; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Maintient le ratio d'aspect */
+    display: block; /* Pour centrer le logo si nécessaire */
+    margin: 0 auto; /* Centre le logo */
+}
+
+header {
+    background: #4CAF50; /* Couleur verte */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background: url('solar-banner.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.cta-button {
+    background: #FFD700; /* Couleur dorée */
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #FFC107; /* Couleur dorée plus claire au survol */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white; /* Fond blanc pour les sections */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+h2 {
+    color: #4CAF50; /* Couleur verte pour les titres */
+}
+
+h3 {
+    color: #333; /* Couleur sombre pour les sous-titres */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: #4CAF50; /* Couleur verte */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #45a049; /* Couleur verte plus foncée au survol */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333; /* Couleur sombre pour le pied de page */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
